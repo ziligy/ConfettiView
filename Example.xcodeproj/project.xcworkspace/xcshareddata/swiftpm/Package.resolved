@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ConfettiView",
+        "repositoryURL": "https://github.com/ziligy/ConfettiView",
+        "state": {
+          "branch": null,
+          "revision": "f71d643fdb5f4d1318617e9ddd5aad60b2178d9d",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
