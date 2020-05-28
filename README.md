@@ -8,8 +8,9 @@ A SwiftUI View that emits confetti with user-defined shapes, images, and text.
 *ConfettiView is available  through `Swift Package Manager`*
 
 - In Xcode choose `File -> Swift Packages -> Add Package Dependency...`
-- Paste this Github URL (https://github.com/ziligy/ConfettiView ) into the search bar. 
-- Select the ConfettiView repo from the search results, and click Finish.
+- Paste this Github URL (https://github.com/ziligy/ConfettiView ) into the search bar and click Next.
+- When repository displays, click Next.
+- When loaded, click Finish.
 
 
 ## Simple Use
