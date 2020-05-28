@@ -4,7 +4,7 @@ A SwiftUI View that emits confetti with shapes, images, and text.
 
 <img src="https://github.com/ziligy/ConfettiView/blob/master/docs/assets/example.gif" alt="SwiftUI ConfettiView by ziligy" width="319" height="690" align="right">
 
-## Installaion
+## Installation
 
 
 ## Use
@@ -26,5 +26,8 @@ struct ContentView: View {
 ```
 
 ## Example
-See included example.
+See included example for:
+ - timed-celebration
+ - fade out
+
 
