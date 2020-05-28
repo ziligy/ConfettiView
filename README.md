@@ -30,4 +30,8 @@ See included example for:
  - timed-celebration
  - fade out
 
+## Attributions
+*inspiration and code influences*
+- [NSHipster](https://github.com/NSHipster/ConfettiView)
+- [ArthurGuibert](https://github.com/ArthurGuibert/SwiftUI-Particles)
 
