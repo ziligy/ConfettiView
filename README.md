@@ -40,6 +40,9 @@ struct ContentView: View {
  - fade out
  - including images
 
+## Apps Using ConfettiView
+- [MurphCounter in App Store]https://apps.apple.com/us/app/murph-counter/id1518634872
+
 ## Attributions
 *inspiration and code influences*
 - [NSHipster](https://github.com/NSHipster/ConfettiView)
