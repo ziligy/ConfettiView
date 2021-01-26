@@ -43,8 +43,14 @@ public enum Confetti {
 
 /// The UIView Confetti Emitter
 public final class UIConfettiView: UIView {
-
+    
+    private var once: Bool = false
+    
     func emit(with contents: [Confetti]) {
+        if once {
+            return
+        }
+        
         let layer = Layer()
         layer.configure(with: contents)
         layer.frame = self.bounds
@@ -52,6 +58,7 @@ public final class UIConfettiView: UIView {
         layer.position = CGPoint(x: UIScreen.main.bounds.width / 2 , y: -UIScreen.main.bounds.height)
         layer.emitterShape = .line
         self.layer.addSublayer(layer)
+        once.toggle()
     }
 
 }
