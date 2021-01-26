@@ -54,7 +54,8 @@ struct ConfettiCelebrationView: View {
             .text("💪"),
             .shape(.circle),
             .shape(.triangle),
-            .image(UIImage(named: "star")!)
+            // if using SF symbols, UIImage takes systemName to build
+            .image(UIImage(systemName: "star")!)
         ]).transition(.slowFadeOut)
 
         return ZStack {
